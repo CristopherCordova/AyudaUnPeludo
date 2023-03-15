@@ -1,0 +1,9 @@
+body{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#Ginger{
+    display: inline-block;
+    vertical-align: sub;
+}
