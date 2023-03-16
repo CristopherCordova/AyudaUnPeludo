@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Ayuda a un peludo</title>
+</head>
+<style>
+    .container{
+        position: relative;
+        width: 50%;
+    }
+    .image{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #e4af03;
+    }
+    .container:hover .overlay{
+        opacity: 1;
+    }
+    .text {
+        color: white;
+        font-size: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+</style>
+<body>
+    <div class="container">
+    <img src="https://images.hola.com/imagenes/estar-bien/20200903174376/razas-perro-bull-terrier-gt/0-859-991/bull-terrier-t.jpg?tx=w_1200"
+    alt="Perro 1"
+    class="image">
+    <div class="overlay">
+        <div class="text">
+            <h1>Nombre: AA</h1>
+            <h1>Edad: 2222</h1>
+            <h1>Genero: ª</h1>
+            <h1>Esterilizado: Si/No</h1>
+            <h1>Nro Chip: 32423423423424</h1> 
+        </div>
+    </div>
+</body>
+</html>
