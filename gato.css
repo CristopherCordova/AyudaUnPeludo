@@ -2,72 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    padding-top: 100px;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-#Ginger{
-    display: inline-block;
-    vertical-align: sub;
-}
-
-header{
-    max-width: 1500px;
-    margin: auto;
-    padding: 30x;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: 'Gorditas', cursive;
+    color: rgb(18, 18, 87);
     
 }
 
-ul{
-    display: flex;
-    list-style: none;
+p{
+    font-size: 0.8cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
 }
 
-ul li{
-    margin: 0 20px;
-}
-
-header{
-    max-width: 1500px;
-    margin: auto;
-    padding: 30x;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-ul{
-    display: flex;
-    list-style: none;
-}
-ul li{
-    margin: 0 20px;
-}
-ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-
-section{
-    padding-top: 150px;
+h2 {
+    padding: 30px;
     text-align: center;
+    font-size: 1.5cm;
+    font-family: 'Gorditas', cursive;
+    color: rgb(18, 18, 87);
 }
 
-section h1{
-    font-size: 80px;
-    color: rgb(255, 255, 255);
+body{
+    background: url(FONDO.png) no-repeat ;
+    padding-top: 60px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section a{
-    text-decoration: none;
-    color: #fff;
-    border: 3px solid #fff;
-    padding: 10px 15px;
-    font-size: 18px;
+ul{
+    display: flex;
+    list-style: none;
 }
+
+p{
+    margin-top: 12px;
+    margin-right: 12cm;
+    margin-left: 12cm;
+}
+
+ul li{
+    margin: 0 1800px;
+}
+
+div{
+    margin-top: 17px;
+}
+
+
+
