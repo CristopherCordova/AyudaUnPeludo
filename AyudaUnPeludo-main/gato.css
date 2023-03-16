@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: 'Gorditas', cursive;
+    color: rgb(18, 18, 87);
+    
+}
+
+p{
+    font-size: 0.8cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: 'Gorditas', cursive;
+    color: rgb(18, 18, 87);
+}
+
+body{
+    background: url(FONDO.png) no-repeat ;
+    padding-top: 60px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+p{
+    margin-top: 12px;
+    margin-right: 12cm;
+    margin-left: 12cm;
+}
+
+ul li{
+    margin: 0 1800px;
+}
+
+div{
+    margin-top: 17px;
+}

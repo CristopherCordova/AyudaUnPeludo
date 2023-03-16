@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+ul li{
+    margin: 0 1800px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.container{
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffe695f5;
+    text-align: center;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
+.text {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+
+body{
+    background: url(FONDO.png) no-repeat ;
+    padding-top: 60px;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

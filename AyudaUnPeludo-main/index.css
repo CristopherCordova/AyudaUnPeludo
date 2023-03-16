@@ -1,0 +1,130 @@
+*  {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5cm;
+    font-family: 'Gorditas', cursive;
+    color: rgb(18, 18, 87);
+}
+
+h4{
+    font-size: 1cm;  
+    font-family: 'Gorditas', cursive;
+    color: rgb(18, 18, 87);
+}  
+
+body {
+    
+    background: url(FONDO.png) no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 0.8cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+p1{
+    font-size: 0.8cm;
+
+    text-align: center;
+}
+
+
+.box-container  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box  {
+    height: 15rem;
+    width: 22rem;
+    background: rgb(252, 207, 150);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(228, 171, 98, 0.678);
+    margin: 2rem;
+}
+
+.box-container .box i  {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: azure;
+    background: rgb(248, 200, 138);
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3  {
+    font-size: 0.7cm;
+    color: rgb(42, 47, 116);
+
+}
+
+.box-container .box p  {
+    padding: 0 15px;
+    font-size: 0.5cm;
+
+}
+
+.content  {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.in {
+    padding: 30px;
+    background: #f8dab5;
+}
+
+.about  {
+    background: rgb(121, 221, 101);
+
+}
+
+.contact  {
+    padding-top: 20px;
+    background: rgb(253, 205, 123);
+    padding-bottom: 0;
+
+}
+
+.integrantess  {
+    background: rgb(255, 238, 213);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+@media (max-width:768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+
+    }
+
+    .navbar {
+        display: none;
+    }
+
+}
